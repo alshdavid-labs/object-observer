@@ -8,6 +8,10 @@
   },
   "author": "David Alsh",
   "license": "ISC",
+  "scripts": {
+    "clean": "rm -rf observable react index.d.ts index.js",
+    "build": "npx tsc"
+  },
   "bugs": {
     "url": "https://github.com/alshdavid/reactive-channels/issues"
   },
