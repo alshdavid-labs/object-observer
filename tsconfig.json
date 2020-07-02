@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "lib": ["DOM", "ES2015", "esnext"],
+    "outDir": "./",
+    "target": "esnext",
+    "module": "commonjs",
+    "moduleResolution": "Node",
+    "declarationDir": ".",
+    "declaration": true,
+    "inlineSourceMap": true,
+    "inlineSources": true
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules",
+    "old"
+  ]
+}
