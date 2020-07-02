@@ -10,6 +10,7 @@
   "license": "ISC",
   "scripts": {
     "clean": "rm -rf observable react index.d.ts index.js",
+    "clean:hard": "npm run clean && rm -rf node_modules",
     "build": "npx tsc"
   },
   "bugs": {
